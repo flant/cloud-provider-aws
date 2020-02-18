@@ -23,7 +23,7 @@ replace (
 	k8s.io/kube-scheduler => k8s.io/kubernetes/staging/src/k8s.io/kube-scheduler v0.0.0-20191206012503-70132b0f130a
 	k8s.io/kubectl => k8s.io/kubernetes/staging/src/k8s.io/kubectl v0.0.0-20191206012503-70132b0f130a
 	k8s.io/kubelet => k8s.io/kubernetes/staging/src/k8s.io/kubelet v0.0.0-20191206012503-70132b0f130a
-	k8s.io/legacy-cloud-providers => github.com/flant/legacy-cloud-providers v0.17.1-0.20200216131429-7b2fb604b3f6
+	k8s.io/legacy-cloud-providers => github.com/flant/legacy-cloud-providers v0.17.0-flant.3
 	k8s.io/metrics => k8s.io/kubernetes/staging/src/k8s.io/metrics v0.0.0-20191206012503-70132b0f130a
 	k8s.io/node-api => k8s.io/kubernetes/staging/src/k8s.io/node-api v0.0.0-20191206012503-70132b0f130a
 	k8s.io/sample-apiserver => k8s.io/kubernetes/staging/src/k8s.io/sample-apiserver v0.0.0-20191206012503-70132b0f130a
@@ -37,6 +37,6 @@ require (
 	k8s.io/component-base v0.17.0
 	k8s.io/klog v1.0.0
 	k8s.io/kubernetes v1.17.0
-	k8s.io/legacy-cloud-providers v0.0.0
+	k8s.io/legacy-cloud-providers v0.17.0
 	k8s.io/utils v0.0.0-20191114184206-e782cd3c129f
 )
